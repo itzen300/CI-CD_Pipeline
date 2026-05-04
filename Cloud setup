@@ -1,9 +1,0 @@
-The prject is demonstration of CI / CD with the example of an open web application.
-
-This application will be running different systems simultaneously so we need to ipart the cloud technology to make our system efficiently for such a situation.
-
-So, we used here the Aamzon Web Services AWS;
-in this AWS platform we need to first initiate a server were we will deploy our application, for this we need computing power.
-for computing we have the EC2 service in the AWS.
-EC2 = Amazon Elastic Compute Cloud
-
