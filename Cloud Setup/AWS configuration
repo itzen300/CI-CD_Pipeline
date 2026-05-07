@@ -1,7 +1,12 @@
-Amazon Web Services (AWS) was used in this project as the primary cloud platform to simulate a real-world DevOps deployment environment. AWS is one of the most widely adopted cloud service providers in the industry and is extensively used by enterprises for hosting applications, infrastructure automation, cloud storage, networking, monitoring, and scalable deployments. Its reliability, global infrastructure, strong documentation, and integration support make it highly suitable for DevOps and CI/CD implementations.
+Amazon Web Services (AWS) was used in this project as the primary cloud platform to simulate a real-world deployment environment. 
+AWS is one of the most widely adopted cloud service providers in the industry and is extensively used by enterprises for hosting applications, infrastructure automation, cloud storage, networking, monitoring, and scalable deployments. 
+Its reliability, global infrastructure, strong documentation, and integration support make it highly suitable for DevOps and CI/CD implementations.
 
-AWS was preferred for this project because of its industry relevance, ease of deployment, and practical exposure to cloud-based infrastructure management. Services such as Amazon EC2 allow developers and DevOps engineers to deploy virtual servers on demand, while security groups and networking configurations help simulate enterprise-grade infrastructure setups. The platform also provides flexibility for integrating automation tools like Jenkins and container technologies like Docker within a cloud environment.
+The AWS configuration process was performed through the AWS Management Console web interface. 
+An Ubuntu-based EC2 instance was launched and configured with custom security group rules to allow SSH access, Jenkins dashboard access, and Flask application traffic. 
+Key pair authentication was used for secure remote login, and inbound rules were configured to expose required ports such as 22, 5000, and 8080. 
+This setup helped in understanding practical cloud provisioning, instance management, network access control, and infrastructure deployment workflows.
 
-The AWS configuration process was performed through the AWS Management Console web interface. An Ubuntu-based EC2 instance was launched and configured with custom security group rules to allow SSH access, Jenkins dashboard access, and Flask application traffic. Key pair authentication was used for secure remote login, and inbound rules were configured to expose required ports such as 22, 5000, and 8080. This setup helped in understanding practical cloud provisioning, instance management, network access control, and infrastructure deployment workflows.
-
-The project mainly utilized AWS EC2 for compute resources and security groups for traffic management. These services provided a lightweight but realistic cloud infrastructure environment capable of hosting the CI/CD pipeline and containerized application stack. The implementation also demonstrates foundational understanding of cloud deployment architecture, infrastructure accessibility, and service orchestration within AWS environments.
+The project mainly utilized AWS EC2 for compute resources and security groups for traffic management. 
+These services provided a lightweight but realistic cloud infrastructure environment capable of hosting the CI/CD pipeline and containerized application stack. 
+The implementation also demonstrates foundational understanding of cloud deployment architecture, infrastructure accessibility, and service orchestration within AWS environments.
