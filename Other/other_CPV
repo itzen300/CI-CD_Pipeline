@@ -1,1 +1,19 @@
-CPV = cloud platform vendor
+Apart from Amazon Web Services (AWS), several other cloud platform vendors are widely used in the IT and DevOps industry for infrastructure hosting, application deployment, networking, storage, and automation services. 
+Major cloud providers include [Microsoft Azure](https://azure.microsoft.com?utm_source=chatgpt.com), 
+[Google Cloud Platform (GCP)](https://cloud.google.com?utm_source=chatgpt.com), 
+[Oracle Cloud Infrastructure (OCI)](https://www.oracle.com/cloud/?utm_source=chatgpt.com), and 
+[IBM Cloud](https://www.ibm.com/cloud?utm_source=chatgpt.com). 
+
+Different organizations choose cloud providers based on factors such as pricing, scalability, regional availability, enterprise integration, compliance requirements, and service specialization.
+For example, Microsoft Azure is commonly adopted in enterprises heavily integrated with Windows Server and Active Directory environments, while Google Cloud Platform is recognized for its strong data analytics and machine learning capabilities.
+Oracle Cloud Infrastructure is often preferred for enterprise database workloads and hybrid cloud deployments.
+
+Exposure to different cloud vendors helps in developing practical knowledge of cloud architecture, deployment models, infrastructure automation, and platform-specific services used in real-world enterprise environments.
+
+Some of the provides which are i would have considered in my project are :-
+
+| Cloud Provider | Basic Free Tier / Credits                   | Approx Basic VM Pricing | Industry Preference                                     |
+| -------------- | ------------------------------------------- | ----------------------- | ------------------------------------------------------- |
+| AWS            | 750 hours/month EC2 t2.micro for 12 months  | ~$8–10/month            | Enterprise infrastructure, DevOps, scalable deployments |
+| Azure          | $200 free credits + 12 months free services | ~$9–11/month            | Microsoft ecosystem, enterprise IT environments         |
+| GCP            | $300 free credits for 90 days               | ~$8–10/month            | Kubernetes, AI/ML, analytics workloads                  |
